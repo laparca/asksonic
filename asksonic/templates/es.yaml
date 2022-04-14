@@ -1,0 +1,23 @@
+launch_text: "Bienvenido a Ask Sonic. Pideme reproducir un artista, álbum, o canción. También puedes pedir una lista o toda la colección."
+launch_title: "Bienvenido a AskSonic!"
+launch_content: "Pideme reproducir un artista, álbum, o canción. También puedes pedir una lista o toda la colección."
+
+pausing: "Pausando"
+resuming: "Continuando"
+stopping: "Parando"
+okay: "Okey"
+
+playing_library: "Reproduciendo música de tu biblioteca"
+playing_artist: "Reproduciendo música de {{ artist }}"
+playing_album: "Reproduciendo el álbum {{ album }} {{ 'de {}'.format(artist) if artist }}"
+
+current_track: "Esta canción es "
+track_information: "{{ title }} por {{ artist }}"
+detailed_track_information: "{{ title }} por {{ artist }} del álbum {{ album }}"
+
+intent_not_supported: "Disculpa, aún no puedo hacer eso"
+nothing_playing: "No hay música en reproducción"
+no_previous_track: "No hay canción previa"
+end_of_queue: "No hay más música en la cola"
+artist_not_found: "No he podido encontrar al artista {{ artist }}"
+album_not_found: "No he podido encontrar el álbum {{ album }} {{ 'de {}'.format(artist) if artist }}"
