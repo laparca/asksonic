@@ -62,6 +62,7 @@ If you instead prefer to host the AskSonic server yourself, you can follow these
 | ``ASKS_SUBSONIC_USER`` | Your Subsonic server username | ✅ |
 | ``ASKS_SUBSONIC_PASS`` | Your Subsonic server password | ✅ |
 | ``ASKS_SUBSONIC_PORT`` | The port your Subsonic server listens on (if not the default for https) | Default: 443 |
+| ``ASKS_SUBSONIC_LEGACYAUTH`` | Enables legacy authentication without authentication token. Some serves requires this | Default: False |
 | ``ASKS_SUBSONIC_SERVERPATH`` | The server path of your Subsonic server. Must contain only the path, not the domain. Example: `/path/to/rest` | Default: /rest |
 | ``ASKS_SUBSONIC_APIVERSION`` | The supported API version of your Subsonic server. (Airsonic servers should use version 1.15.0) | Default: 1.16.1 |
 | ``ASKS_SUBSONIC_APPNAME`` | The name of your AskSonic instance | Default: py-sonic |
@@ -71,6 +72,7 @@ If you instead prefer to host the AskSonic server yourself, you can follow these
 | ``ASKS_TRACKS_COUNT`` | The number of tracks enqueued at a time | Default: 50 |
 | ``ASKS_EXTRA_SECRET`` | An extra secret that will be appended to all requests as either a header or to the query string. Useful for authenticating requests if your Subsonic server is behind a WAF such as Cloudflare | ❌ |
 | ``ASKS_LANG`` | Language to use for Alexa. | Default: en |
+| ``ASKS_VERIFY_REQUESTS`` | Enables/disables the authentication of the Alexa requests | Default: True |
 
 ## Acknowledgements
 AskSonic was inspired by the following projects:
